@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar */
+.navbar {
+    
+    width: 100%;
+    padding: 15px 0;
+    background: #301934;
+    font-family: Helvetica, sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+body {
+    background: #301934;
+    color: #fff;
+    font-family: verdana;
+
+} 
+body h2 {
+    vertical-align: bottom;
+}
+.banner {
+    background-image: url('C:\Users\user\Portfolio\purplebanner.jpg');
+    height:70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.inner-container {
+    font-size: xx-large;
+   position: absolute;
+    width: 40%;
+    color: white;
+   
+    margin: 200px;
+    font-family: Georgia;
+    text-align: left;
+}
+
+
+.image {
+    text-align: right;
+    padding: 30px;
+}
+.content {
+  height: 600px;
+  line-height: 4;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
