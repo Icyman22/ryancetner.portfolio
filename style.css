@@ -69,7 +69,7 @@ body h2 {
 }
 
 
-.image {
+.me {
     text-align: right;
     padding: 30px;
 }
@@ -87,15 +87,37 @@ body h2 {
 }
 .flex-item {
     width: 30%;
+    
     font-weight: bold;
-  
   background-size: cover;
   background-position: center;
   padding: 20px 0;
-  min-height: 250px;
+  min-height: 200px;
 }
-.contact h2 ul {
-    flex-wrap: wrap;
-    width: 15%;
-    text-align: left;
+
+
+.image:hover {
+background: yellow;
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+    .flex-container {
+        width:  100%;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        width: 95%;
+    }
+    .flex-item {
+        width: 45%;
+    }
+    
+
 }
