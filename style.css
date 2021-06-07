@@ -25,7 +25,7 @@
 
 }
 .navbar .logo a{
-    color: #fff;
+    color:yellow;
     font-size: 35px;
     font-weight: 600;
 }
@@ -34,14 +34,14 @@
     display: inline-block;
 }
 .navbar .menu li a {
-    color: #fff;
+    color: yellow;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
 }
 body {
     background: #301934;
-    color: #fff;
+    color: yellow;
     font-family: verdana;
 
 } 
@@ -61,9 +61,9 @@ body h2 {
     font-size: xx-large;
    position: absolute;
     width: 40%;
-    color: white;
+    color:yellow;
    
-    margin: 200px;
+    margin: 20px;
     font-family: Georgia;
     text-align: left;
 }
@@ -83,7 +83,7 @@ body h2 {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 .flex-item {
     width: 30%;
@@ -93,4 +93,9 @@ body h2 {
   background-position: center;
   padding: 20px 0;
   min-height: 250px;
+}
+.contact h2 ul {
+    flex-wrap: wrap;
+    width: 15%;
+    text-align: left;
 }
