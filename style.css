@@ -100,9 +100,17 @@ body h2 {
 background: yellow;
 }
 @media screen and (max-width: 980px) {
+    .flex-item {
+        justify-content: space-between;
+        
+    }
 
 }
 @media screen and (max-width: 768px) {
+    .flex-item {
+        width: 45%;
+        justify-content: space-between;
+    }
 
 }
 @media screen and (max-width: 575px) {
@@ -117,6 +125,9 @@ background: yellow;
     }
     .flex-item {
         width: 45%;
+    }
+    p {
+        font-size: 18px;
     }
     
 
