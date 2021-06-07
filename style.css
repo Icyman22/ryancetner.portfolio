@@ -80,3 +80,17 @@ body h2 {
   position: relative;
   text-align: center;
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-item {
+    width: 30%;
+    font-weight: bold;
+  
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  min-height: 250px;
+}
